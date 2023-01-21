@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Drum Machine Project
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react)](https://skillicons.dev)
+![A representative img of the Drum Machine Project](https://github.com/CarlosMayo1/drum-machine/blob/master/src/img/drum-machine.PNG)
+
+This project was developed using React as the main framework. This is a Free Code Camp Challenge to get the Fronted certification. 
+
+## About the project :thinking:	
+
+Each clickeable button can make a sound, there are nine different sounds for each button. It is possible to control the volume of the machine in the volume section. This Drum Machine Project counts with two different types of music.
+- Heater hit
+- Smooth Piano Kit
+
+Each kit has their own type of sound.
+There is a panel in where the name of the sound is visible. Also a power button to turn it on or off if necessary. 
+This section was optional because it wasn't required for FCC test. :star_struck:
+
+Please give it a try in [Drum Machine - Codepen](https://codepen.io/CarlosMayo1/pen/JjBJgYw?editors=0110)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
