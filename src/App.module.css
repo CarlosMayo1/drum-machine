@@ -1,0 +1,31 @@
+.app {
+  padding:1rem;
+  background: #fff;
+  border: 5px solid #808080;
+}
+
+.logo {
+  font-size:19px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+
+.logo i {
+  padding-left: 5px;
+  font-size: 19px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo {
+    font-size:19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 0;
+  }
+}

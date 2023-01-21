@@ -1,0 +1,39 @@
+.controls-container {
+  display: flex;
+  justify-content: center;
+  /* height: 150px; */
+}
+
+.controls-container__inner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+}
+
+/* ============= */
+/* Controls Selection */
+/* ============= */
+
+.selected-on {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.selected-off {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .controls-container {
+    width: 224px;
+    display: flex;
+    justify-content: center;
+    /* height: 100%    ; */
+  }
+}
